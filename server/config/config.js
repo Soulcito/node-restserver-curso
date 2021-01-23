@@ -20,8 +20,8 @@ let urlDB;
 //     urlDB = 'mongodb://localhost:27017/cafe';
 // }
 // esle {
-//     urlDB = 'mongodb+srv://sould:WOnaUUZo2ETPqIZO@cluster0.pmpiy.mongodb.net/cafe';
+//     urlDB = process.env.MONGO_URI;
 // }
 
-urlDB = 'mongodb+srv://sould:WOnaUUZo2ETPqIZO@cluster0.pmpiy.mongodb.net/cafe';
+urlDB = process.env.MONGO_URI;
 process.env.URLDB = urlDB;
