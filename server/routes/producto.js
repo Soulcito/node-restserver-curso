@@ -4,7 +4,6 @@ const { verificaToken } = require('../middlewares/autenticacion');
 
 let app = express();
 let Producto = require('../models/producto');
-let Categoria = require('../models/categoria');
 
 //===============================
 // Obtener productos
